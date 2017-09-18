@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Обход авторизации через vk.com на pornhub.com",
+    "description": "Обход авторизации через vk.com на pornhub.com",
+    "version": "1.0.0",
+    "icons": {
+        "128": "128.png"
+    },
+    "content_scripts": [
+        {
+          "matches": [ "*://*/*" ],
+          "js": [ "main.js" ]
+        }
+    ]
+}
